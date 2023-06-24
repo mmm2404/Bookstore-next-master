@@ -1,0 +1,84 @@
+.container {
+    margin: 0px auto;
+    max-width: 1300px;
+    padding: 0 20px;
+    margin-top: 140px;
+  }
+.cartList{
+  padding:0px;
+}
+  .cartList li  {
+   
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 77px;
+  
+  }
+  .cartList li :last-child {
+      margin: 0;
+    }
+  .name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:  #1C2A39;
+  }
+  .fields {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0px 30px 0px;
+}
+.fields li {
+      color: #5C6A79;
+      width: calc(65% / 4);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 10px;
+      text-transform: uppercase;
+      list-style-type: none;
+      
+  
+    }
+    .fields li:first-child {
+    width: 35%;
+  }
+  .fields li:hover{
+    color:black;
+    text-shadow: 0px 0px 2px #1c2a39;
+}
+    
+
+  .total {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-top: 117px;
+    margin-bottom: 20px;
+  }
+  .checkout {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 8px;
+    text-transform: uppercase;
+    color: #4c3db2;
+    padding: 17px 50px;
+    border: 1px solid #4c3db2;
+    transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s;
+    margin-bottom: 87px;
+  }
+  .checkout:hover {
+      color: #fff;
+      background-color: #4c3db2;
+      transition: color ease-in-out 0.2s, background-color ease-in-out 0.2s;
+    }
+    .massage{
+      font-size: large;
+      font-family:cursive;
+      color:crimson;
+      margin: 0 auto ;
+    }
+   

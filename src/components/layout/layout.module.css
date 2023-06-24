@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1440vw;
+    margin: 0 auto;
+
+
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #1C2A39;
+}
+.header{
+    height: 116px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 47px 161px 40px 146px;
+    gap: 243px;
+    position: fixed;
+    z-index: 7000;
+    background-color: #FFFFFF ;
+    top:0;
+    left: 0;
+
+
+}
+.main{
+    /* padding: 20px; */
+    flex:1;
+}

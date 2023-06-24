@@ -1,0 +1,109 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.sliderContainer{
+    position: relative;
+    margin:auto;
+    /* overflow: hidden; */
+    width: 1120px;
+    height: 702px;
+}
+
+.active{
+    display: inline-block;
+    width: 1120px;
+    height: 702px;
+    position: relative;
+}
+.inactive{
+    display:none;
+}
+ .slides{
+    width: 1120px;
+    height: 702px;
+    position: relative;
+
+ }
+ .image{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    object-fit: cover;
+
+ }
+ .dotsContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   gap: 10px;
+   margin-top:20px;
+    
+ }
+ .dots{
+    cursor: pointer;
+    width:12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color:#EFEEF6;
+   
+    cursor: pointer;
+    transition: background 0.4s ease;
+}
+.dot:hover,
+.activeDot{
+    background: #9E98DC;
+}
+.promo{
+    width: 149px;
+    height: 204px;
+    background: #9E98DC;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #1C2A39;
+    position: absolute;
+    z-index: 10;
+    top: 250px;
+    left: 1230px;
+    -webkit-box-shadow: 17px 21px 29px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 17px 21px 29px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 17px 21px 29px 0px rgba(34, 60, 80, 0.2);
+
+}
+.top_books {
+    width: 137px;
+    height: 273px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #1C2A39;
+    background: #FF8FE6;
+    position: absolute;
+    z-index: 10;
+    top: 500px;
+    left: 1320px;
+    -webkit-box-shadow: 17px 21px 29px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 17px 21px 29px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 17px 21px 29px 0px rgba(34, 60, 80, 0.2);
+}
+
+.blockone{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 80px;
+    padding: 5px;
+}
+.blockone p{
+   text-align: start;
+}
+
+.blocktwo{
+    margin-top: 150px;
+    padding: 5px;
+}

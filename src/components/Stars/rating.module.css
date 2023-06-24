@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    left: 0;
+    grid-auto-flow: row;
+  
+    display: inline-flex;
+    position: relative;
+    cursor: pointer;
+    gap: 2px;
+
+  }
+  
