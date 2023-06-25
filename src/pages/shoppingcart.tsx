@@ -11,7 +11,7 @@ export default function ShoppingCart({ id, cover, authors, title, averageRating,
 
   const dispatch = useAppDispatch();
   const { items }:IShoppingCart = useAppSelector((state) => state.cart );
-  const total = useAppSelector((state) => state.cart.items.reduce((total, item) =>
+  const total = useAppSelector((state) => state.cart.items.reduce((total: number, item: { price: { amount: number; }; quantity: number; }) =>
   total + item.price.amount*item.quantity, 0))
 
 

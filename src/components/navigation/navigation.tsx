@@ -34,6 +34,7 @@ console.log(items)
       }
 
     return(
+        <>
         <nav className={css.container}>
             <ul className={css.list}>
                 <li className={css.item}><Link href="./" className={clsx({ [css.disabled]: router.asPath === "./" })}>books</Link></li>
@@ -53,5 +54,7 @@ console.log(items)
                      
             </ul>
         </nav>
+        </>
+
     )
 }

@@ -2,7 +2,7 @@
 import Image from "next/image";
 import css from "./booklist.module.css"
 import { IBookCard } from "./types";
-import placeholder from "../../../public/placeholder.png";
+import loader from "../../../public/Book.gif";
 import { useAppDispatch } from "@/store/redux";
 import { addCartItem } from "@/store/cartSlice";
 import { useState } from "react";
@@ -44,8 +44,8 @@ export default function BookCard({id,cover,authors,
      <div className={css.card}>
     <div className={css.container}> 
  
-        {cover? <Image alt="book cover" loading="lazy" className={css.image} width={212}  height={307} src={cover}/>
-       : <Image alt="preloader book" className={css.loader} width={40}  height={40} src={placeholder}/>}
+        <Image alt="book cover" loading="lazy" className={css.image} width={212}  height={307} src={cover}/>
+  
        
     </div>
     <div className={css.info}>

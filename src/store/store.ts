@@ -11,7 +11,7 @@ const persistConfig = {
 
 const rootReducer = combineReducers({ cart })
 const persistedReducer = persistReducer(persistConfig, rootReducer)
- const  setupStore = () =>
+ const  store = 
   configureStore({
     reducer: persistedReducer,
     middleware: (getDefaultMiddleware) =>
@@ -22,12 +22,12 @@ const persistedReducer = persistReducer(persistConfig, rootReducer)
       }),
   })
  
-export const persistor = persistStore(setupStore());
-export default setupStore;
+export const persistor = persistStore(store);
+export default store;
 
 
 
-export type RootState = ReturnType<typeof rootReducer>
-export type AppStore = ReturnType<typeof setupStore>
-export type AppDispatch = AppStore['dispatch']
+// export type RootState = ReturnType<typeof rootReducer>
+// export type AppStore = ReturnType<typeof store>
+// export type AppDispatch = AppStore['dispatch']
 
