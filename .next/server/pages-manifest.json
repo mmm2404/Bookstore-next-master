@@ -1,12 +1,12 @@
 {
   "/_app": "pages/_app.js",
-  "/404": "pages/404.html",
   "/_document": "pages/_document.js",
-  "/api/books": "pages/api/books.js",
+  "/404": "pages/404.html",
   "/api/auth": "pages/api/auth.js",
+  "/api/books": "pages/api/books.js",
   "/audio": "pages/audio.html",
   "/": "pages/index.html",
+  "/_error": "pages/_error.js",
   "/profile": "pages/profile.html",
-  "/shoppingcart": "pages/shoppingcart.html",
-  "/_error": "pages/_error.js"
+  "/shoppingcart": "pages/shoppingcart.html"
 }
