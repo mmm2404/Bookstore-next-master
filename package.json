@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "gh-pages -d build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -18,6 +19,7 @@
     "clsx": "^1.2.1",
     "eslint": "8.40.0",
     "eslint-config-next": "13.4.1",
+    "gh-pages": "^5.0.0",
     "next": "13.4.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
@@ -29,5 +31,7 @@
     "swiper": "^9.3.0",
     "tailwindcss": "3.3.2",
     "typescript": "5.0.4"
-  }
+  },
+  "homepage": "https://mmm2404.github.io/Bookstore-next-master"
+  
 }

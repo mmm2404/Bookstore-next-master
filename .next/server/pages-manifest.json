@@ -1,6 +1,12 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
+  "/404": "pages/404.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/api/books": "pages/api/books.js",
+  "/api/auth": "pages/api/auth.js",
+  "/audio": "pages/audio.html",
+  "/": "pages/index.html",
+  "/profile": "pages/profile.html",
+  "/shoppingcart": "pages/shoppingcart.html",
+  "/_error": "pages/_error.js"
 }
